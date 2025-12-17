@@ -48,26 +48,17 @@ The styleAndCelebrate function combines these two behaviors into a single reusab
 
 ---
 
-Comparison: let vs var
-Understanding the variables used in this project:
-
-| Feature | let (Used in Task 1) | var (Used in Task 2) |
-| **Scope** | Block Scoped (within { }) | Function Scoped |
-| **Re-declaration** | Cannot be re-declared in the same scope | Can be re-declared |
-| **Hoisting** | Hoisted, but not initialized | Hoisted and initialized as undefined |
-| **Modern Usage** | Preferred for modern development | Generally avoided in modern JS |
+**Key Takeaways
+Block Scope vs. Function Scope:** let is restricted to the block {} it is defined in, whereas var is available throughout the entire function.
+**The %c Specifier:** Learned how to pass CSS strings into console.log to create custom UI elements in the browser debugger.
+**Template Literals:** Used backticks (`) to cleanly inject variables into strings without complex concatenation.
 
 ---
 
 **How to Run the Code**
-1. Copy the entire script from functionalprogramming.js.
-2. Open your browser's Developer Tools (F12 or Ctrl+Shift+I).
-3. Navigate to the Console tab.
-4. Paste the code and hit Enter.
-
-**Expected Output**
-When you run the final invocation: styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
-
-You will see:
-"You made it!" styled with a pinkish text color and a cream background.
-"Congrats on the title!" in large, tomato-colored text.
+1. Open your browser's Developer Tools (F12).
+2. Paste the code into the Console.
+3. Execute the combined function:
+```js
+styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+```
