@@ -22,6 +22,7 @@ function consoleStyler(color, background, fontSize, txt) {
 
     console.log(message, style);
 }
+` ``` `
 ---
 
 2. **Conditional Logic with var**
@@ -42,6 +43,7 @@ function celebrateStyler(reason) {
         console.log(reason);
     }
 }
+` ``` `
 ---
 
 3. **Function Composition**
