@@ -56,9 +56,10 @@ Block Scope vs. Function Scope:** let is restricted to the block {} it is define
 ---
 
 **How to Run the Code**
-1. Open your browser's Developer Tools (F12).
-2. Paste the code into the Console.
-3. Execute the combined function:
+1. filename: functionalprogramming.js
+   Open your browser's Developer Tools (F12)
+3. Paste the code into the Console.
+4. Execute the combined function:
 ```js
 styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
 ```
