@@ -1,4 +1,4 @@
-# Coursera_JavaScript
+# Coursera_Function_JavaScript
 # JavaScript Functional Logic & Scoping Lab   
 Failed Test 1: Not logging the consoleStyler() variables   
 Passed Test 2: successfully logged celebrateStyler() variables   
